@@ -1,6 +1,6 @@
 from django.shortcuts import render, get_object_or_404, redirect
-from .models import Libro
-from .forms import LibroForm
+from models import Biblioteca, Libro
+from forms import LibroForm
 
 # Create your views here.
 
