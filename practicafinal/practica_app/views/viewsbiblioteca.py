@@ -1,7 +1,7 @@
 from django.shortcuts import render, get_object_or_404, redirect
 from django.http import HttpResponse
-from .models import Biblioteca
-from .forms import BibliotecaForm
+from models import Biblioteca
+from forms import BibliotecaForm
 
 # Create your views here.
 
