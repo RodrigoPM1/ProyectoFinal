@@ -18,7 +18,7 @@ class Libro(models.Model):
     sinopsis = models.TextField()
     año_publicacion = models.DateField()
     editorial = models.CharField(max_length=100)
-    isbn = models.CharField(max_length=17)  # Validar con expresión regular
+    isbn = models.CharField(max_length=13)  # Validar con expresión regular
     num_ejemplares = models.IntegerField()
     biblioteca = models.ForeignKey(Biblioteca, on_delete=models.CASCADE)
 
